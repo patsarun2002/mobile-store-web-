@@ -3,31 +3,36 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "eslint app"
   },
   "dependencies": {
-    "axios": "^1.9.0",
+    "@tailwindcss/postcss": "^4.3.0",
+    "axios": "^1.16.1",
     "cookie-parser": "^1.4.7",
-    "dayjs": "^1.11.13",
-    "js-cookie": "^3.0.5",
-    "jsonwebtoken": "^9.0.2",
-    "next": "15.1.4",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "recharts": "^2.15.3",
-    "sweetalert2": "^11.20.0"
+    "dayjs": "^1.11.21",
+    "js-cookie": "^3.0.8",
+    "jsonwebtoken": "^9.0.3",
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "recharts": "^2.15.4",
+    "sweetalert2": "^11.26.25"
   },
   "devDependencies": {
+    "@eslint/eslintrc": "^3.3.5",
     "@types/js-cookie": "^3.0.6",
-    "@types/jsonwebtoken": "^9.0.9",
-    "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.9.1",
+    "@types/react": "^19.2.15",
     "@types/react-dom": "^19",
+    "eslint": "^9.39.4",
+    "eslint-config-next": "^16.2.6",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1",
-    "typescript": "^5"
+    "tailwindcss": "^4.3.0",
+    "typescript": "^5.9.3"
   }
 }
